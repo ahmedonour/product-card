@@ -124,6 +124,22 @@
     border: none;
     cursor: pointer;
 }
+.conteiner .card .card-text .button button:hover {
+    background-color: var(--clr-headlin);
+    color: var(--clr-primery);
+}
+.conteiner .card .card-text .button button:active {
+    background-color: var(--clr-headlin);
+    color: var(--clr-primery);
+}
+.conteiner .card .card-text .button button:target {
+    background-color: var(--clr-headlin);
+    color: var(--clr-primery);
+}
+.conteiner .card .card-text .button button:focus {
+    background-color: var(--clr-headlin);
+    color: var(--clr-primery);
+}
 @media screen and (min-width: 768px) {
     .conteiner .card {
         flex-direction: column;
