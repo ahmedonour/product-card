@@ -218,7 +218,7 @@
     }
     .conteiner .card .card-text .price-tag {
         float: right;
-        width: 250px;
+        width: 200px;
     }
     .conteiner .card .card-text .price-tag p:nth-of-type(1) {
         font-size: 2rem;
@@ -231,7 +231,7 @@
     }
     .conteiner .card .card-text .button button {
         width: 90%;
-        height: 5rem;
-        font-size: 2rem;
+        height: 2rem;
+        font-size: 1rem;
     }
 }
