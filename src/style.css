@@ -189,7 +189,7 @@
 @media screen and (min-width: 414px) {
     .conteiner .card {
         flex-direction: column;
-        height: 80vh;
+        height: 90vh;
         width: 80vw;
     }
     .conteiner .card .card-img {
@@ -205,13 +205,13 @@
     }
 
     .conteiner .card .card-text .gray-text {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
     }
     .conteiner .card .card-text .perfume {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .conteiner .card .card-text .des {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     .conteiner .card .card-text h1 {
         font-size: 4rem;
@@ -221,13 +221,16 @@
         width: 250px;
     }
     .conteiner .card .card-text .price-tag p:nth-of-type(1) {
-        font-size: 4rem;
-    }
-    .conteiner .card .card-text .price-tag p:nth-of-type(2) {
         font-size: 2rem;
     }
+    .conteiner .card .card-text .price-tag p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+    .conteiner .card .card-text .button {
+        width: 100%;
+    }
     .conteiner .card .card-text .button button {
-        width: 45rem;
+        width: 90%;
         height: 5rem;
         font-size: 2rem;
     }
