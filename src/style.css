@@ -140,7 +140,7 @@
     background-color: var(--clr-headlin);
     color: var(--clr-primery);
 }
-@media (min-width: 414px) {
+@media (max-width: 768px) {
     .conteiner .card {
         flex-direction: column;
         height: 80rem;
