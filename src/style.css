@@ -141,10 +141,15 @@
     color: var(--clr-primery);
 }
 @media screen and (max-width: 768px) {
+	.conteiner {
+		height: 130vh;
+		padding-bottom: 4rem;
+	}
     .conteiner .card {
         flex-direction: column;
-        height: 100vh;
+        height: 110vh;
         width: 80vw;
+		padding-bottom: 3rem;
     }
     .conteiner .card .card-img {
         width: 100%;
@@ -180,17 +185,24 @@
     .conteiner .card .card-text .price-tag p:nth-of-type(2) {
         font-size: 2rem;
     }
+	.conteiner .card .card-text .button{
+		width: 100%;
+		display: grid;
+		place-items: center;
+
+	}
     .conteiner .card .card-text .button button {
-        width: 45rem;
-        height: 5rem;
+        width: 90%;
+        height: 2.5rem;
         font-size: 2rem;
     }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
     .conteiner .card {
         flex-direction: column;
-        height: 90vh;
+        height: 70%;
         width: 80vw;
+		padding-bottom: 1rem;
     }
     .conteiner .card .card-img {
         width: 100%;
@@ -208,13 +220,13 @@
         font-size: 1rem;
     }
     .conteiner .card .card-text .perfume {
-        font-size: 1.5rem;
-    }
-    .conteiner .card .card-text .des {
         font-size: 1rem;
     }
+    .conteiner .card .card-text .des {
+        font-size: .5rem;
+    }
     .conteiner .card .card-text h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .conteiner .card .card-text .price-tag {
         float: right;
