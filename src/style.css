@@ -205,16 +205,16 @@
     }
 
     .conteiner .card .card-text .gray-text {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .conteiner .card .card-text .perfume {
-        font-size: 2.5rem;
-    }
-    .conteiner .card .card-text .des {
         font-size: 2rem;
     }
+    .conteiner .card .card-text .des {
+        font-size: 0.5rem;
+    }
     .conteiner .card .card-text h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .conteiner .card .card-text .price-tag {
         float: right;
